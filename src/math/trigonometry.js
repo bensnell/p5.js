@@ -6,8 +6,8 @@
  * @requires constants
  */
 
-import p5 from '../core/main';
-import * as constants from '../core/constants';
+// import p5 from '../core/main';
+// import * as constants from '../core/constants';
 
 /*
  * all DEGREES/RADIANS conversion should be done in the p5 instance
@@ -368,4 +368,4 @@ p5.prototype._fromRadians = function(angle) {
   return angle;
 };
 
-export default p5;
+// export default p5;

@@ -1,6 +1,6 @@
-'use strict';
+// 'use strict';
 
-import p5 from './main';
+// import p5 from './main';
 
 p5.prototype._promisePreloads = [
   /* Example object

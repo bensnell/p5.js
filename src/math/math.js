@@ -5,7 +5,7 @@
  * @requires core
  */
 
-import p5 from '../core/main';
+// import p5 from '../core/main';
 
 /**
  * Creates a new <a href="#/p5.Vector">p5.Vector</a> (the datatype for storing vectors). This provides a
@@ -45,4 +45,4 @@ p5.prototype.createVector = function(x, y, z) {
   }
 };
 
-export default p5;
+// export default p5;

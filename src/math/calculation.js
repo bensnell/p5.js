@@ -5,7 +5,7 @@
  * @requires core
  */
 
-import p5 from '../core/main';
+// import p5 from '../core/main';
 
 /**
  * Calculates the absolute value (magnitude) of a number. Maps to Math.abs().
@@ -888,4 +888,4 @@ p5.prototype.fract = function(toConvert) {
   }
 };
 
-export default p5;
+// export default p5;

@@ -6,10 +6,10 @@
  * @requires constants
  */
 
-import p5 from '../core/main';
-import * as constants from '../core/constants';
-import './p5.Color';
-import '../core/error_helpers';
+// import p5 from '../core/main';
+// import * as constants from '../core/constants';
+// import './p5.Color';
+// import '../core/error_helpers';
 
 /**
  * Extracts the alpha value from a color or pixel array.
@@ -592,4 +592,4 @@ p5.prototype.saturation = function(c) {
   return this.color(c)._getSaturation();
 };
 
-export default p5;
+// export default p5;

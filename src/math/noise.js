@@ -18,7 +18,7 @@
  * @requires core
  */
 
-import p5 from '../core/main';
+// import p5 from '../core/main';
 
 const PERLIN_YWRAPB = 4;
 const PERLIN_YWRAP = 1 << PERLIN_YWRAPB;
@@ -311,4 +311,4 @@ p5.prototype.noiseSeed = function(seed) {
   }
 };
 
-export default p5;
+// export default p5;

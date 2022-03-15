@@ -5,7 +5,7 @@
  * @requires core
  */
 
-import p5 from '../core/main';
+// import p5 from '../core/main';
 
 /**
  * Converts a string to its floating point representation. The contents of a
@@ -321,4 +321,4 @@ p5.prototype.unhex = function(n) {
   }
 };
 
-export default p5;
+// export default p5;

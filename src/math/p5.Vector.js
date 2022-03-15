@@ -4,8 +4,8 @@
  * @requires constants
  */
 
-import p5 from '../core/main';
-import * as constants from '../core/constants';
+// import p5 from '../core/main';
+// import * as constants from '../core/constants';
 
 /**
  * A class to describe a two or three dimensional vector, specifically
@@ -1936,4 +1936,4 @@ p5.Vector.mag = function mag(vecT) {
   return Math.sqrt(magSq);
 };
 
-export default p5.Vector;
+// export default p5.Vector;

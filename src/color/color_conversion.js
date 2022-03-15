@@ -13,7 +13,7 @@
  * interchangeably.
  */
 
-import p5 from '../core/main';
+// import p5 from '../core/main';
 p5.ColorConversion = {};
 
 /**
@@ -268,4 +268,6 @@ p5.ColorConversion._rgbaToHSLA = function(rgba) {
   return [hue / 6, sat, li / 2, rgba[3]];
 };
 
-export default p5.ColorConversion;
+const color_conversion = p5.ColorConversion;
+
+// export default p5.ColorConversion;

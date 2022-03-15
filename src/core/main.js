@@ -5,10 +5,10 @@
  * @requires constants
  */
 
-import './shim';
+// import './shim';
 
 // Core needs the PVariables object
-import * as constants from './constants';
+// import * as constants from './constants';
 
 /**
  * This is the p5 instance constructor.
@@ -270,8 +270,8 @@ class p5 {
         userPreload();
         this._runIfPreloadsAreDone();
       } else {
-        this._setup();
-        this._draw();
+        // this._setup();
+        // this._draw();
       }
     };
 
@@ -716,4 +716,4 @@ p5.prototype._registeredMethods = { init: [], pre: [], post: [], remove: [] };
 
 p5.prototype._registeredPreloadMethods = {};
 
-export default p5;
+// export default p5;

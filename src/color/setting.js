@@ -6,9 +6,9 @@
  * @requires constants
  */
 
-import p5 from '../core/main';
-import * as constants from '../core/constants';
-import './p5.Color';
+// import p5 from '../core/main';
+// import * as constants from '../core/constants';
+// import './p5.Color';
 
 /**
  * The <a href="#/p5/background">background()</a> function sets the color used for the background of the
@@ -857,4 +857,4 @@ p5.prototype.noErase = function() {
   return this;
 };
 
-export default p5;
+// export default p5;

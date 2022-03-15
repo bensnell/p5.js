@@ -7,9 +7,9 @@
  * @requires color_conversion
  */
 
-import p5 from '../core/main';
-import * as constants from '../core/constants';
-import color_conversion from './color_conversion';
+// import p5 from '../core/main';
+// import * as constants from '../core/constants';
+// import color_conversion from './color_conversion';
 
 /**
  * Each color stores the color mode and level maxes that applied at the
@@ -1010,4 +1010,4 @@ p5.Color._parseInputs = function(r, g, b, a) {
   return results;
 };
 
-export default p5.Color;
+// export default p5.Color;
